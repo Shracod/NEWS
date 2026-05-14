@@ -1,0 +1,32 @@
+ .news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.news-preview {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.news-preview:hover {
+  transform: scale(1.03);
+}
+
+.news-title {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.news-author {
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+}
